@@ -7,7 +7,7 @@
 //
 
 #import "SMGViewController.h"
-
+#import <MyTools/MyTools.h>
 @interface SMGViewController ()
 
 @end
@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [MyTools test];
 }
 
 - (void)didReceiveMemoryWarning
